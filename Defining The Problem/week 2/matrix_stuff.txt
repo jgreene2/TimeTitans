@@ -1,0 +1,23 @@
+The 8x8 matrix can either be common anode or cathode. 8 pins connect to common, 8 pins connect to red, 8 to green, and 8 to blue. If we are dealing with on/off lights and not pwm dimmable, it would make our project much simpler, since we only have to deal with transistors on one side of the matrix. Information can be sent by the microcontroller to the IIC, either the 74595 shift registers or any other 1-8 multiplexer. The 74595 are not individually addressable, so information is daisy chained between everything, i.e. goes through one to the next and so on. Prices I grabbed from popular electronic sites, but can be sourced from China for much cheaper. The only down side to China is shipping times, which is typically 2-3 weeks. They make colorshields that controls the entire matrix with 4 lines I believe, but they get a little pricy, and depending on the model determines if they can be connected to other shields. I have everything mentioned in this paragraph that can be used for concepts for the display.
+
+8x8 rgb matrix
+	$9.90
+	http://www.seeedstudio.com/depot/8x8-RGB-LED-Dot-Matrix-Compatible-with-Rainbowduino-p-113.html
+
+Colorshield
+	$36.00
+	http://www.amazon.com/RioRand-V2-0-Driver-8x8-Display-arduino/dp/B00GM8QPGC
+
+Transistor
+	$0.50
+	https://www.sparkfun.com/products/521
+
+74595 Shift register
+	$0.95
+	https://www.sparkfun.com/products/13699
+
+Resistors 
+	$0.10
+
+
+

@@ -1,0 +1,55 @@
+(each number should probably be a slide)
+(feel free to remove the -- HEADINGS --)
+
+-- Arduino Wifi Modules --
+(1)
+WiFi Module - ESP8266 - $6.95
+Features:
+	WiFi Direct P2P
+	802.11 b/g/n
+https://www.sparkfun.com/products/13678
+
+
+-- Microcontrollers --
+(2)
+Arduino Pro Mini 328 - 5V/16MHz - $6.99
+Features:
+	Very small, lightweight
+	Cheap
+	Relatively low power
+	Needs WiFi Module
+
+https://www.sparkfun.com/products/11113
+or
+http://www.newegg.com/Product/Product.aspx?Item=9SIA2E60ZS1943&nm_mc=KNC-GoogleMKP-PC&cm_mmc=KNC-GoogleMKP-PC-_-pla-_-Control%2C+Switch+Gear+%26+Displays-_-9SIA2E60ZS1943&gclid=CjwKEAjw55K4BRC53L6x9pyDzl4SJAD_21V1TBltVuuHIrH18XbqFiUGb_UVtPYdp2UoI9GcM8mNgBoC1Fzw_wcB&gclsrc=aw.ds
+
+
+(3)
+Raspberry Pi 3 Model B - $34.15
+Features:
+	Has integrated WiFi
+	Has full operating system
+https://thepihut.com/products/raspberry-pi-3-model-b
+
+
+(4)
+- Adding multiple clock systems (stretch goal): -
+>Design a website/database to hold display data.
+>Host the data on school servers OR on Raspberry Pi
+>Pull data from server using microcontrollers and display it
+
+This allows the system to be easily added to
+
+
+My Notes (Don't put this into presentation):
+
+
+
+Our main idea is to have a Raspberry Pi to host a server
+or to have the school host a website on their servers.
+Every other microcontroller system could pull data from the main server.
+This would remove the need to add backup batteries to the slave systems,
+only the main server would need a backup battery (if we choose Raspberry Pi to host our own server).
+tl;dr: One expensive main system (raspberry pi?), multiple cheaper systems (arduino?).
+
+http://www.wikihow.com/Make-a-Raspberry-Pi-Web-Server

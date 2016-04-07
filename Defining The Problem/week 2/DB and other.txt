@@ -1,0 +1,17 @@
+create a mySQL database to store trivia
+  - have different tables and relations for questions, answers, others
+  - free
+
+create a web server on the microcontroller #rasberry pi (austin goes into detail on this)
+  - create a designer independent HTTP protocol
+  - would be able to access physical sensor information (temp, humidity, ambient level, etc)
+  - could connect through wifi or ethernet cable
+  - easy to integrate on small RAM with a microcontroller
+  - already needed if we use rasberry pi
+
+use a hypertext link (or other way) to connect to website
+  - have to be careful of copyright (probably not a big deal)
+  - wouldn't have to populate 
+  
+
+  
